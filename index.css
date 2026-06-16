@@ -229,8 +229,6 @@
     height: 20px;
     width: auto;
     margin-right: 8px;
-    /* Convert colourful custom logos to clean greyscale */
-    filter: grayscale(1) invert(1) brightness(1.8);
     opacity: 0.9;
   }
 
@@ -275,12 +273,11 @@
   }
 
   .hero-logo {
-    max-height: 85px;
+    max-height: 120px;
     width: auto;
     margin-top: 24px;
-    margin-bottom: 8px;
-    filter: grayscale(1) invert(1) brightness(1.8);
-    opacity: 0.95;
+    margin-bottom: 16px;
+    opacity: 1;
     transition: transform var(--transition-smooth);
   }
 
