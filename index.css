@@ -226,7 +226,7 @@
   }
 
   .logo-image {
-    height: 20px;
+    height: 24px;
     width: auto;
     margin-right: 8px;
     opacity: 0.9;
@@ -273,7 +273,7 @@
   }
 
   .hero-logo {
-    max-height: 180px;
+    max-height: 240px;
     width: auto;
     margin-top: 24px;
     margin-bottom: 16px;
