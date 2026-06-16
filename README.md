@@ -8,6 +8,7 @@ Tetsu Studio se rige por un enfoque **minimalista y funcional**, priorizando:
 - **Utilidad Pura**: Herramientas que hacen una sola cosa de manera excepcional, eliminando el ruido y la complejidad innecesaria.
 - **Velocidad de Ejecución**: Optimizado al byte, sin dependencias pesadas, logrando cargas instantáneas.
 - **Modularidad e Interfaz Unificada**: Compartir componentes de diseño comunes para ofrecer una experiencia técnica y visual coherente y consistente.
+- **Autenticación Centralizada (SSO)**: Acceso unificado donde todas las herramientas del ecosistema comparten el mismo usuario e inicio de sesión.
 
 ---
 
