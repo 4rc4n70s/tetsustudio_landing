@@ -26,10 +26,7 @@ Esta landing page se ha diseñado siguiendo principios modernos de desarrollo we
 - **Estructura Semántica**: HTML5 accesible y estructurado.
 - **CSS Avanzado**: Organizado en capas (`@layer reset, base, theme, components, utilities`) con variables de diseño, cuadrícula técnica adaptativa (dot grid) y visuales dinámicos de vidrio (glassmorphism).
 - **Animaciones Nativas (Scroll-Driven)**: Transiciones e interfaces reveladas al hacer scroll implementadas con CSS nativo (`view()`).
-- **Interactividad sin Librerías**: Interactividad interactiva y fluida en JavaScript puro (Vanilla JS), incluyendo:
-  - **Glimpse**: Regla de lectura guiada ajustable por el cursor y cambio dinámico de tamaño de fuente.
-  - **FitLab**: Selección de prendas simuladas y efecto de distorsión interactiva del lienzo representando visión computacional activa.
-  - **OCR Scan**: Mapeo visual interactivo en tiempo real al pasar el cursor sobre las líneas del documento escaneado para ver su extracción en JSON.
+- **Lógica de Presentación**: Implementación limpia en JavaScript puro (Vanilla JS).
 - **Optimización de Compatibilidad**: Fallback inteligente programado con `IntersectionObserver` para navegadores que aún no soportan las animaciones de scroll de CSS nativo.
 
 ---
