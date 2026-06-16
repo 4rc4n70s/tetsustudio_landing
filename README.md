@@ -13,9 +13,9 @@ Tetsu Studio se rige por un enfoque **minimalista y funcional**, priorizando:
 
 ## 🛠️ Proyectos Integrados en el Ecosistema
 
-1. **[Glimpse](https://github.com/azanardi/glimpse)**: Un lector de ebooks minimalista diseñado para reducir la fricción en la lectura digital y maximizar la concentración.
-2. **FitLab - Virtual Try On**: Una herramienta enfocada en el sector de indumentaria que permite la simulación precisa de prendas de ropa mediante visión por computadora.
-3. **AI OCR**: Un sistema de reconocimiento óptico de caracteres potenciado con inteligencia artificial, especializado en la extracción de datos y la inteligencia semántica sobre documentos PDF escaneados.
+1. **[Glimpse](https://github.com/azanardi/glimpse)**: Lector y gestor multidispositivo de libros digitales en formato EPUB y PDF, integrado con capacidades OCR.
+2. **FitLab - Virtual Try On**: Generador inteligente de lookbooks para e-commerce que combina prendas y modelos mediante IA para fotos de catálogo fotorrealistas.
+3. **OCR Scan**: Herramienta especializada en transcribir y recuperar textos de documentos escaneados de baja calidad para convertirlos a formatos limpios como PDF o EPUB.
 
 ---
 
@@ -28,7 +28,7 @@ Esta landing page se ha diseñado siguiendo principios modernos de desarrollo we
 - **Interactividad sin Librerías**: Interactividad interactiva y fluida en JavaScript puro (Vanilla JS), incluyendo:
   - **Glimpse**: Regla de lectura guiada ajustable por el cursor y cambio dinámico de tamaño de fuente.
   - **FitLab**: Selección de prendas simuladas y efecto de distorsión interactiva del lienzo representando visión computacional activa.
-  - **AI OCR**: Mapeo visual interactivo en tiempo real al pasar el cursor sobre las líneas del documento escaneado para ver su extracción en JSON.
+  - **OCR Scan**: Mapeo visual interactivo en tiempo real al pasar el cursor sobre las líneas del documento escaneado para ver su extracción en JSON.
 - **Optimización de Compatibilidad**: Fallback inteligente programado con `IntersectionObserver` para navegadores que aún no soportan las animaciones de scroll de CSS nativo.
 
 ---

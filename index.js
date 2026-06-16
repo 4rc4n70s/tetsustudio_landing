@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /* ==========================================================================
-     4. AI OCR Demo Interaction
+     4. OCR Scan Demo Interaction
      ========================================================================== */
   const ocrTargets = document.querySelectorAll('.ocr-target');
 

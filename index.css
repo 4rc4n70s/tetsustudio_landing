@@ -622,7 +622,7 @@
     stroke: #444444;
   }
 
-  /* AI OCR Demo Panel (Simplified) */
+  /* OCR Scan Demo Panel (Simplified) */
   .ocr-split-pane {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
