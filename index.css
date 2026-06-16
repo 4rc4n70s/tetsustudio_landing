@@ -354,18 +354,19 @@
     max-width: 500px;
   }
 
-  /* Projects Grid & Cards */
+  /* Projects Grid & Cards (Solid Flat Row Layout) */
   .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
 
   .project-card {
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    padding: 28px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 0;
+    padding: 40px 0;
     display: flex;
     flex-direction: column;
     transition: var(--transition-smooth);
@@ -373,8 +374,12 @@
     overflow: hidden;
   }
 
+  .project-card:first-child {
+    border-top: 1px solid var(--border-color);
+  }
+
   .project-card:hover {
-    border-color: var(--border-hover);
+    background-color: rgba(255, 255, 255, 0.01);
   }
 
   .project-card-header {
@@ -413,7 +418,7 @@
   }
 
   .project-icon-wrapper {
-    background-color: var(--bg-tertiary);
+    background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
     padding: 8px;
     border-radius: 2px;
@@ -422,12 +427,11 @@
 
   .project-description {
     color: var(--color-secondary);
-    font-size: 0.9rem;
-    margin-bottom: 20px;
-    line-height: 1.5;
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    max-width: 800px;
   }
-
-
 
   .project-footer {
     display: flex;
