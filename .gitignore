@@ -1,0 +1,27 @@
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Node & Packages
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Development / IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary / Build
+dist/
+build/
+out/
+.gemini/
+scratch/

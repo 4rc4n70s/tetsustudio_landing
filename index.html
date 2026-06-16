@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tetsu Studio - Ecosistema unificado de herramientas de software utilitario y sistemas funcionales. Velocidad, concentración y diseño minimalista sin fricción.">
+  <meta name="theme-color" content="#0d0e11">
+  <title>Tetsu Studio | Estudio de Software Utilitario</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Background Grid & Glows -->
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="radial-glow glow-1" aria-hidden="true"></div>
+  <div class="radial-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="logo" id="logo-link">
+        <span class="logo-accent">TETSU</span><span class="logo-text">_STUDIO</span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#proyectos" class="nav-link" id="nav-proyectos">Proyectos</a>
+        <a href="#filosofia" class="nav-link" id="nav-filosofia">Filosofía</a>
+        <a href="#infraestructura" class="nav-link" id="nav-infraestructura">Infraestructura</a>
+      </nav>
+      <a href="https://github.com/azanardi/tetsustudio_landing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-icon" id="btn-github-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+        <span>GitHub</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="badge" id="hero-badge">
+          <span class="badge-dot"></span>
+          <span class="badge-text">STATUS: ACTIVE // COHESION SYSTEM V1.0</span>
+        </div>
+        <h1 class="hero-title">
+          Estudio de Software Utilitario<br>
+          <span class="gradient-text">&amp; Sistemas Funcionales</span>
+        </h1>
+        <p class="hero-subtitle">
+          Un ecosistema unificado diseñado para agrupar y centralizar herramientas independientes. Priorizamos la utilidad pura, la velocidad de ejecución y la eliminación de ruido visual.
+        </p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary" id="btn-hero-explore">Explorar Ecosistema</a>
+          <a href="#filosofia" class="btn btn-tertiary" id="btn-hero-philosophy">Nuestra Filosofía</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="proyectos">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-tag">/ ECOSISTEMA</div>
+          <h2 class="section-title">Herramientas Integradas</h2>
+          <p class="section-subtitle">Módulos especializados que comparten una misma filosofía de diseño e infraestructura común.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Card 1: Glimpse -->
+          <article class="project-card" id="card-glimpse">
+            <div class="project-card-header">
+              <div class="project-info">
+                <span class="project-status status-stable">PRODUCCIÓN</span>
+                <h3 class="project-name">Glimpse</h3>
+              </div>
+              <div class="project-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-icon"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+              </div>
+            </div>
+            
+            <p class="project-description">
+              Un lector de ebooks minimalista diseñado específicamente para reducir la fricción en la lectura digital y maximizar la concentración.
+            </p>
+            
+            <!-- Interactive Demo: Glimpse -->
+            <div class="interactive-demo-container" id="demo-glimpse">
+              <div class="demo-toolbar">
+                <span class="demo-title">Vista de Lectura</span>
+                <div class="demo-controls">
+                  <button type="button" class="demo-btn" id="btn-glimpse-size" title="Ajustar tamaño de fuente">Aa</button>
+                  <button type="button" class="demo-btn" id="btn-glimpse-focus" title="Activar regla de enfoque">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h20M12 2v20"></path></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="glimpse-reader" id="glimpse-reader-pane">
+                <div class="glimpse-focus-ruler" id="glimpse-ruler" aria-hidden="true"></div>
+                <p class="glimpse-text" id="glimpse-text-content">
+                  Para maximizar la concentración, eliminamos márgenes excesivos, menús persistentes y animaciones que distraen al cerebro. La lectura digital debe emular la simplicidad de una hoja impresa, pero con la adaptabilidad que permite la tecnología moderna.
+                </p>
+              </div>
+              <div class="demo-caption">Interacción: Ajusta la fuente o activa la regla de enfoque guiado.</div>
+            </div>
+
+            <div class="project-footer">
+              <span class="project-tech">HTML5 / Vanilla JS / CSS Variables</span>
+              <a href="#" class="project-link" id="link-glimpse">
+                <span>Acceder a Glimpse</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: FitLab -->
+          <article class="project-card" id="card-fitlab">
+            <div class="project-card-header">
+              <div class="project-info">
+                <span class="project-status status-beta">VIRTUAL TRY ON</span>
+                <h3 class="project-name">FitLab</h3>
+              </div>
+              <div class="project-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-icon"><path d="M20.38 3.46L16 2.14a2 2 0 0 0-1.2 0l-4.38 1.32a2 2 0 0 1-1.2 0L4.82 2.14a2 2 0 0 0-2.4 1.2L1 8.5c-.32 1.25.13 2.58 1.12 3.33L10 18.5l7.88-6.67c1-.75 1.44-2.08 1.12-3.33L17.58 3.46a2 2 0 0 0-2.4-1.2"></path><path d="M12 22V13"></path></svg>
+              </div>
+            </div>
+            
+            <p class="project-description">
+              Herramienta avanzada enfocada en el sector de indumentaria que permite la simulación y el ajuste preciso de prendas mediante modelos de visión por computadora.
+            </p>
+            
+            <!-- Interactive Demo: FitLab -->
+            <div class="interactive-demo-container" id="demo-fitlab">
+              <div class="demo-toolbar">
+                <span class="demo-title">Simulación en Tiempo Real</span>
+                <div class="demo-controls">
+                  <button type="button" class="demo-btn-text active" id="btn-fitlab-shirt" data-garment="shirt">Camisa</button>
+                  <button type="button" class="demo-btn-text" id="btn-fitlab-jacket" data-garment="jacket">Chaqueta</button>
+                </div>
+              </div>
+              <div class="fitlab-workspace">
+                <svg class="fitlab-canvas" viewBox="0 0 200 150" width="100%" height="100%" id="fitlab-canvas-svg">
+                  <!-- Calibration grid pattern -->
+                  <defs>
+                    <pattern id="calib-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#262933" stroke-width="0.5"/>
+                    </pattern>
+                  </defs>
+                  <rect width="100%" height="100%" fill="url(#calib-grid)"/>
+                  
+                  <!-- Silhouette representation -->
+                  <g class="fitlab-model">
+                    <!-- Head -->
+                    <circle cx="100" cy="30" r="14" class="model-line" />
+                    <!-- Neck/Shoulders -->
+                    <path d="M85 43 L100 48 L115 43" class="model-line" />
+                    <!-- Body trunk -->
+                    <path d="M 70 60 C 70 50, 130 50, 130 60 L 125 130 L 75 130 Z" class="model-line model-body-base" />
+                  </g>
+                  
+                  <!-- Garment Overlays -->
+                  <g id="fitlab-garment-shirt" class="garment-layer active">
+                    <path d="M 68 52 L 85 45 L 100 50 L 115 45 L 132 52 L 140 75 L 128 78 L 125 65 L 125 125 L 75 125 L 75 65 L 72 78 L 60 75 Z" class="garment-shape shirt-shape" />
+                    <!-- Tracking vectors -->
+                    <circle cx="100" cy="50" r="2" fill="#ff5c00" />
+                    <circle cx="68" cy="52" r="2" fill="#ff5c00" />
+                    <circle cx="132" cy="52" r="2" fill="#ff5c00" />
+                    <circle cx="75" cy="125" r="2" fill="#ff5c00" />
+                    <circle cx="125" cy="125" r="2" fill="#ff5c00" />
+                    <path d="M100 50 L100 90 M68 52 L75 65 M132 52 L125 65" stroke="#ff5c00" stroke-width="0.75" stroke-dasharray="2,2" />
+                  </g>
+                  
+                  <g id="fitlab-garment-jacket" class="garment-layer">
+                    <path d="M 65 48 L 85 43 L 100 48 L 115 43 L 135 48 L 145 80 L 126 83 L 123 60 L 126 128 L 74 128 L 77 60 L 74 83 L 55 80 Z" class="garment-shape jacket-shape" />
+                    <path d="M 100 48 L 100 128 M 98 65 L 77 60 M 102 65 L 123 60" stroke="#ff5c00" stroke-width="0.75" />
+                    <!-- Tracking vectors -->
+                    <circle cx="100" cy="48" r="2" fill="#ff5c00" />
+                    <circle cx="65" cy="48" r="2" fill="#ff5c00" />
+                    <circle cx="135" cy="48" r="2" fill="#ff5c00" />
+                    <circle cx="74" cy="128" r="2" fill="#ff5c00" />
+                    <circle cx="126" cy="128" r="2" fill="#ff5c00" />
+                  </g>
+                </svg>
+              </div>
+              <div class="demo-caption">Interacción: Alterna la prenda para ver el ajuste de vectores de visión.</div>
+            </div>
+
+            <div class="project-footer">
+              <span class="project-tech">Python / OpenCV / WebAssembly</span>
+              <a href="#" class="project-link" id="link-fitlab">
+                <span>Explorar FitLab</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: AI OCR -->
+          <article class="project-card" id="card-ocr">
+            <div class="project-card-header">
+              <div class="project-info">
+                <span class="project-status status-alpha">ALFA / LAB</span>
+                <h3 class="project-name">AI OCR</h3>
+              </div>
+              <div class="project-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-icon"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="9"></line><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="13" y2="17"></line></svg>
+              </div>
+            </div>
+            
+            <p class="project-description">
+              Un sistema de reconocimiento óptico de caracteres potenciado con inteligencia artificial, especializado en la extracción de datos estructurados e inteligencia semántica sobre PDFs.
+            </p>
+            
+            <!-- Interactive Demo: AI OCR -->
+            <div class="interactive-demo-container" id="demo-ocr">
+              <div class="demo-toolbar">
+                <span class="demo-title">Extracción Estructurada</span>
+                <div class="demo-controls">
+                  <span class="mono-label" id="ocr-status-label">JSON GENERADO</span>
+                </div>
+              </div>
+              <div class="ocr-split-pane">
+                <div class="ocr-doc-preview">
+                  <div class="ocr-doc-line ocr-target" data-field="empresa" id="ocr-field-empresa">
+                    <strong>EMPRESA:</strong> ACME S.A.
+                  </div>
+                  <div class="ocr-doc-line ocr-target" data-field="cuit" id="ocr-field-cuit">
+                    <strong>CUIT:</strong> 30-71458922-9
+                  </div>
+                  <div class="ocr-doc-line ocr-target" data-field="total" id="ocr-field-total">
+                    <strong>TOTAL:</strong> $145.820,00
+                  </div>
+                </div>
+                <div class="ocr-data-preview">
+                  <pre class="json-code" id="ocr-json-output">{
+  <span class="json-key">"empresa"</span>: <span class="json-val" id="val-empresa">"ACME S.A."</span>,
+  <span class="json-key">"cuit"</span>: <span class="json-val" id="val-cuit">"30-71458922-9"</span>,
+  <span class="json-key">"total"</span>: <span class="json-num" id="val-total">145820.00</span>
+}</pre>
+                </div>
+              </div>
+              <div class="demo-caption">Interacción: Pasa el mouse sobre el texto del documento para ver el mapeo JSON.</div>
+            </div>
+
+            <div class="project-footer">
+              <span class="project-tech">PyTorch / LLMs / Node.js</span>
+              <a href="#" class="project-link" id="link-ocr">
+                <span>Ver Proyecto OCR</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section philosophy-section" id="filosofia">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-tag">/ CÓDIGO DE DISEÑO</div>
+          <h2 class="section-title">Principios Tetsu</h2>
+          <p class="section-subtitle">Normas estrictas que rigen el desarrollo de cada aplicación de nuestro ecosistema.</p>
+        </div>
+
+        <div class="philosophy-grid">
+          <div class="philosophy-card" id="philosophy-utilidad">
+            <div class="philosophy-num">01</div>
+            <h3 class="philosophy-title">Utilidad Pura</h3>
+            <p class="philosophy-text">
+              Diseñamos herramientas enfocadas a resolver una tarea específica sin agregar complejidad innecesaria. Si una función no aporta valor directo, se descarta.
+            </p>
+          </div>
+          <div class="philosophy-card" id="philosophy-rendimiento">
+            <div class="philosophy-num">02</div>
+            <h3 class="philosophy-title">Rendimiento Extremo</h3>
+            <p class="philosophy-text">
+              La velocidad de carga y ejecución es una característica clave del diseño. Evitamos bundles pesados y optimizamos cada petición en la red.
+            </p>
+          </div>
+          <div class="philosophy-card" id="philosophy-modularidad">
+            <div class="philosophy-num">03</div>
+            <h3 class="philosophy-title">Sistemas Modulares</h3>
+            <p class="philosophy-text">
+              Cada aplicación funciona de manera autónoma pero comparte tokens de diseño, tipografías e infraestructura común, garantizando una experiencia coherente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Infrastructure Section -->
+    <section class="section tech-section" id="infraestructura">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-tag">/ ARQUITECTURA</div>
+          <h2 class="section-title">Infraestructura Unificada</h2>
+          <p class="section-subtitle">Cómo estructuramos el desarrollo para compartir recursos de interfaz y despliegue rápido.</p>
+        </div>
+
+        <div class="tech-layout">
+          <div class="tech-info-pane">
+            <h3 class="tech-subheading">Un solo núcleo, múltiples utilidades</h3>
+            <p class="tech-desc">
+              Tetsu Studio no es solo una marca paraguas; técnicamente es un monorrepósito y una CDN compartida que reduce los tiempos de desarrollo.
+            </p>
+            <ul class="tech-list">
+              <li>
+                <div class="tech-list-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div><strong>Design Tokens:</strong> Variables CSS globales para colores, fuentes, espaciados y sombras.</div>
+              </li>
+              <li>
+                <div class="tech-list-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div><strong>Common UI Components:</strong> Formularios, paneles y visores optimizados.</div>
+              </li>
+              <li>
+                <div class="tech-list-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div><strong>Zero-dependency JS:</strong> Lógica liviana enfocada en la interactividad nativa del navegador.</div>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="tech-viz-pane">
+            <div class="viz-container">
+              <div class="viz-node viz-core" id="viz-tetsu-core">Tetsu Core (Tokens & CSS)</div>
+              <div class="viz-arrow-vertical"></div>
+              <div class="viz-grid-nodes">
+                <div class="viz-node viz-child" id="viz-glimpse">Glimpse (Reader)</div>
+                <div class="viz-node viz-child" id="viz-fitlab">FitLab (Vision)</div>
+                <div class="viz-node viz-child" id="viz-ocr">AI OCR (Semantic)</div>
+              </div>
+              <div class="viz-caption">Flujo de herencia de estilos e infraestructura modular.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="logo-accent">TETSU</span><span class="logo-text">_STUDIO</span>
+        <p class="footer-tagline">Estudio de Software Utilitario - Sistemas Funcionales</p>
+      </div>
+      <div class="footer-meta">
+        <span class="copyright">© 2026 Tetsu Studio. Todos los derechos reservados.</span>
+        <div class="footer-links">
+          <a href="https://github.com/azanardi/tetsustudio_landing" target="_blank" rel="noopener noreferrer" class="footer-link-icon" id="btn-github-footer" title="GitHub Repository">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="index.js"></script>
+</body>
+</html>
