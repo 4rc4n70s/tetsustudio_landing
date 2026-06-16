@@ -82,25 +82,7 @@
               Lector y gestor multidispositivo para formatos EPUB y PDF. Permite organizar y sincronizar bibliotecas completas, integrando capacidades OCR avanzadas para buscar y digitalizar texto dentro de documentos escaneados.
             </p>
             
-            <!-- Interactive Demo: Glimpse -->
-            <div class="interactive-demo-container" id="demo-glimpse">
-              <div class="demo-toolbar">
-                <span class="demo-title">Vista de Lectura</span>
-                <div class="demo-controls">
-                  <button type="button" class="demo-btn" id="btn-glimpse-size" title="Ajustar tamaño de fuente">Aa</button>
-                  <button type="button" class="demo-btn" id="btn-glimpse-focus" title="Activar regla de enfoque">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h20M12 2v20"></path></svg>
-                  </button>
-                </div>
-              </div>
-              <div class="glimpse-reader" id="glimpse-reader-pane">
-                <div class="glimpse-focus-ruler" id="glimpse-ruler" aria-hidden="true"></div>
-                <p class="glimpse-text" id="glimpse-text-content">
-                  Para maximizar la concentración, eliminamos márgenes excesivos, menús persistentes y animaciones que distraen al cerebro. La lectura digital debe emular la simplicidad de una hoja impresa, pero con la adaptabilidad que permite la tecnología moderna.
-                </p>
-              </div>
-              <div class="demo-caption">Interacción: Ajusta la fuente o activa la regla de enfoque guiado.</div>
-            </div>
+
 
             <div class="project-footer">
               <span class="project-tech">HTML5 / Vanilla JS / CSS Variables</span>
@@ -127,61 +109,7 @@
               Generador inteligente de lookbooks para comercio electrónico. Combina fotos de prendas reales y modelos reales con IA para crear catálogos fotorrealistas de forma instantánea, reduciendo drásticamente los costos de producción fotográfica.
             </p>
             
-            <!-- Interactive Demo: FitLab -->
-            <div class="interactive-demo-container" id="demo-fitlab">
-              <div class="demo-toolbar">
-                <span class="demo-title">Simulación en Tiempo Real</span>
-                <div class="demo-controls">
-                  <button type="button" class="demo-btn-text active" id="btn-fitlab-shirt" data-garment="shirt">Camisa</button>
-                  <button type="button" class="demo-btn-text" id="btn-fitlab-jacket" data-garment="jacket">Chaqueta</button>
-                </div>
-              </div>
-              <div class="fitlab-workspace">
-                <svg class="fitlab-canvas" viewBox="0 0 200 150" width="100%" height="100%" id="fitlab-canvas-svg">
-                  <!-- Calibration grid pattern -->
-                  <defs>
-                    <pattern id="calib-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-                      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#262933" stroke-width="0.5"/>
-                    </pattern>
-                  </defs>
-                  <rect width="100%" height="100%" fill="url(#calib-grid)"/>
-                  
-                  <!-- Silhouette representation -->
-                  <g class="fitlab-model">
-                    <!-- Head -->
-                    <circle cx="100" cy="30" r="14" class="model-line" />
-                    <!-- Neck/Shoulders -->
-                    <path d="M85 43 L100 48 L115 43" class="model-line" />
-                    <!-- Body trunk -->
-                    <path d="M 70 60 C 70 50, 130 50, 130 60 L 125 130 L 75 130 Z" class="model-line model-body-base" />
-                  </g>
-                  
-                  <!-- Garment Overlays -->
-                  <g id="fitlab-garment-shirt" class="garment-layer active">
-                    <path d="M 68 52 L 85 45 L 100 50 L 115 45 L 132 52 L 140 75 L 128 78 L 125 65 L 125 125 L 75 125 L 75 65 L 72 78 L 60 75 Z" class="garment-shape shirt-shape" />
-                    <!-- Tracking vectors -->
-                    <circle cx="100" cy="50" r="2" fill="#ff5c00" />
-                    <circle cx="68" cy="52" r="2" fill="#ff5c00" />
-                    <circle cx="132" cy="52" r="2" fill="#ff5c00" />
-                    <circle cx="75" cy="125" r="2" fill="#ff5c00" />
-                    <circle cx="125" cy="125" r="2" fill="#ff5c00" />
-                    <path d="M100 50 L100 90 M68 52 L75 65 M132 52 L125 65" stroke="#ff5c00" stroke-width="0.75" stroke-dasharray="2,2" />
-                  </g>
-                  
-                  <g id="fitlab-garment-jacket" class="garment-layer">
-                    <path d="M 65 48 L 85 43 L 100 48 L 115 43 L 135 48 L 145 80 L 126 83 L 123 60 L 126 128 L 74 128 L 77 60 L 74 83 L 55 80 Z" class="garment-shape jacket-shape" />
-                    <path d="M 100 48 L 100 128 M 98 65 L 77 60 M 102 65 L 123 60" stroke="#ff5c00" stroke-width="0.75" />
-                    <!-- Tracking vectors -->
-                    <circle cx="100" cy="48" r="2" fill="#ff5c00" />
-                    <circle cx="65" cy="48" r="2" fill="#ff5c00" />
-                    <circle cx="135" cy="48" r="2" fill="#ff5c00" />
-                    <circle cx="74" cy="128" r="2" fill="#ff5c00" />
-                    <circle cx="126" cy="128" r="2" fill="#ff5c00" />
-                  </g>
-                </svg>
-              </div>
-              <div class="demo-caption">Interacción: Alterna la prenda para ver el ajuste de vectores de visión.</div>
-            </div>
+
 
             <div class="project-footer">
               <span class="project-tech">Python / OpenCV / WebAssembly</span>
@@ -208,36 +136,7 @@
               Herramienta de procesamiento de archivos escaneados de baja legibilidad. Utiliza OCR con inteligencia artificial para transcribir y digitalizar textos deteriorados o mal escaneados, exportándolos a formatos limpios como PDF o EPUB.
             </p>
             
-            <!-- Interactive Demo: AI OCR -->
-            <div class="interactive-demo-container" id="demo-ocr">
-              <div class="demo-toolbar">
-                <span class="demo-title">Extracción Estructurada</span>
-                <div class="demo-controls">
-                  <span class="mono-label" id="ocr-status-label">JSON GENERADO</span>
-                </div>
-              </div>
-              <div class="ocr-split-pane">
-                <div class="ocr-doc-preview">
-                  <div class="ocr-doc-line ocr-target" data-field="empresa" id="ocr-field-empresa">
-                    <strong>EMPRESA:</strong> ACME S.A.
-                  </div>
-                  <div class="ocr-doc-line ocr-target" data-field="cuit" id="ocr-field-cuit">
-                    <strong>CUIT:</strong> 30-71458922-9
-                  </div>
-                  <div class="ocr-doc-line ocr-target" data-field="total" id="ocr-field-total">
-                    <strong>TOTAL:</strong> $145.820,00
-                  </div>
-                </div>
-                <div class="ocr-data-preview">
-                  <pre class="json-code" id="ocr-json-output">{
-  <span class="json-key">"empresa"</span>: <span class="json-val" id="val-empresa">"ACME S.A."</span>,
-  <span class="json-key">"cuit"</span>: <span class="json-val" id="val-cuit">"30-71458922-9"</span>,
-  <span class="json-key">"total"</span>: <span class="json-num" id="val-total">145820.00</span>
-}</pre>
-                </div>
-              </div>
-              <div class="demo-caption">Interacción: Pasa el mouse sobre el texto del documento para ver el mapeo JSON.</div>
-            </div>
+
 
             <div class="project-footer">
               <span class="project-tech">PyTorch / LLMs / Node.js</span>
