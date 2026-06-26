@@ -17,7 +17,7 @@ Tetsu Studio se rige por un enfoque **minimalista y funcional**, priorizando:
 1. **[Glimpse](https://github.com/azanardi/glimpse)**: Lector y gestor multidispositivo de libros digitales en formato EPUB y PDF, integrado con capacidades OCR.
 2. **FitLab - Virtual Try On**: Generador inteligente de lookbooks para e-commerce que combina prendas y modelos mediante IA para fotos de catálogo fotorrealistas.
 3. **OCR Scan**: Herramienta especializada en transcribir y recuperar textos de documentos escaneados de baja calidad para convertirlos a formatos limpios como PDF o EPUB.
-4. **[Forge](https://github.com/azanardi/forge)**: Plantilla profesional y generador de inicio rápido (boilerplate) para el desarrollo acelerado de aplicaciones con Next.js, Supabase, TypeScript y Tailwind CSS.
+4. **[Forge](https://github.com/azanardi/forge)**: Aplicación de notas con soporte de Markdown y sincronización multidispositivo basada en arquitectura local-first.
 
 ---
 
